@@ -1,0 +1,6 @@
+[submodule "submodule/Depth-Anything-V2"]
+	path = submodule/Depth-Anything-V2
+	url = https://github.com/DepthAnything/Depth-Anything-V2.git
+[submodule "submodule/bundle_adjust"]
+	path = submodule/bundle_adjust
+	url = https://github.com/centreborelli/sat-bundleadjust.git

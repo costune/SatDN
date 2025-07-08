@@ -3,12 +3,12 @@ icecream
 imageio
 matplotlib
 numba
-numpy
+numpy==1.26.3
 open3d
 opencv-python
 pandas
 pillow
-PyMCubes
+PyMCubes==0.1.4
 PyYAML
 rpcm
 scikit-learn
@@ -17,8 +17,8 @@ seaborn
 tqdm
 trimesh
 utm
-logging
 pyhocon
-shutil
 icecream
 rasterio
+tensorboard
+cachetools

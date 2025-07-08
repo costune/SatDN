@@ -20,9 +20,9 @@ from bundle_adjust.ba_pipeline import BundleAdjustmentPipeline
 
 def read_lonlat_roi(dsm_path):
     if os.path.basename(dsm_path).startswith('OMA'):
-        zonestring = "15T"
+        zonestring = "15"
     elif os.path.basename(dsm_path).startswith('JAX'):
-        zonestring = "17R"
+        zonestring = "17"
     else:
         raise ValueError('Unknown scene id: {}'.format(os.path.basename(dsm_path)))
     roi = np.loadtxt(dsm_path.replace('tif', 'txt'))

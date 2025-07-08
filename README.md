@@ -11,24 +11,23 @@
     Bingxuan Guo
   </p>
   <h4 align="center">
-    <a href="https://arxiv.org/abs/2502.08352">Paper</a>
+    <a href="https://arxiv.org/abs/2502.08352">Paper</a> | <a href="https://drive.google.com/drive/folders/19E0ztCu8lmIXt4gCl4khxChrap5ALq7d?usp=sharing">Data</a>
   </h4>
 </p>
 
-<br>
 
-## News
+## 1. News
 
 - **[7 Jul 2025]** The source code of **Sat-DN** is now publicly available!
 
-## 1. Installation
+## 2. Installation
 
 Clone the code and prepare the conda enviroment.
 
 ```bash
 git clone https://github.com/costune/SatDN.git --recursive
 cd SatDN
-conda create -n satdn python=3.8
+conda create -n satdn python=3.9
 conda activate satdn
 ```
 Install Torch for your CUDA version and the packages in `requirements.txt`.
@@ -85,7 +84,7 @@ We use the [DFC2019](https://ieee-dataport.org/open-access/data-fusion-contest-2
 
 ### Data Preprocessing
 
-Follow the following steps to preprocess the data. We have also provided a sample data. Place it in the `data` folder to test the code. 
+Follow the following steps to preprocess the data. We have also provided a sample [data](https://drive.google.com/drive/folders/19E0ztCu8lmIXt4gCl4khxChrap5ALq7d?usp=sharing). Place it in the `data` folder to test the code. 
 
 **Preprocess the original dataset**
 
@@ -117,18 +116,18 @@ python scripts/DFC2019_Depth_Fusion.py --data_path [SCENE_DIR]
 
 Alternatively, refer to `scripts/data_prepare.sh` for convinence.
 
-## 3. Run
+## 4. Run
 
 ```bash
 python main.py --case [SCENE_ID] --conf confs/sat.conf
 ```
 The training result is recorded in `results` folder.
 
-## 4. Acknowledgments
+## 5. Acknowledgments
 
-Our implementation is built upon [FVMD-ISRe](https://github.com/HEU-super-generalized-remote-sensing/FVMD-ISRe). We also thank the authors of these repositories: [Depth-Anything-V2](https://github.com/DepthAnything/Depth-Anything-V2), [DepthRegularizedGS](https://github.com/robot0321/DepthRegularizedGS), [MonoSDF](https://github.com/autonomousvision/monosdf).
+Our implementation is built upon [FVMD-ISRe](https://github.com/HEU-super-generalized-remote-sensing/FVMD-ISRe). We also thank the authors of these repositories: [Depth-Anything-V2](https://github.com/DepthAnything/Depth-Anything-V2), [DepthRegularizedGS](https://github.com/robot0321/DepthRegularizedGS), [MonoSDF](https://github.com/autonomousvision/monosdf) and [sat-bundleadjust](https://github.com/centreborelli/sat-bundleadjust).
 
-## 5. Citation
+## 6. Citation
 
 If you think our research is helpful to you, please consider citing it.
 

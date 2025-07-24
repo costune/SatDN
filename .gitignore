@@ -3,7 +3,7 @@ __pycache__
 logs
 checkpoints
 .ipynb_checkpoints
-submodule/
+
 data/
 data_test/
 *png

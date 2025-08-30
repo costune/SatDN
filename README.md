@@ -18,6 +18,7 @@
 
 ## 1. News
 
+- **[30 Aug 2025]** Our paper is accepted by JSTARS!
 - **[7 Jul 2025]** The source code of **Sat-DN** is now publicly available!
 
 ## 2. Installation

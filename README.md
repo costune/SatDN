@@ -18,6 +18,7 @@
 
 ## 1. News
 
+- **[01 Aug 2026]** To avoid the need to download and organize files, the compressed `Track3-CLS` has been made available via the Google Drive link below.
 - **[30 Aug 2025]** Our paper is accepted by JSTARS!
 - **[7 Jul 2025]** The source code of **Sat-DN** is now publicly available!
 
